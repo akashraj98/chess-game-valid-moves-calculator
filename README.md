@@ -1,5 +1,5 @@
 ## How to run this project
-
+clone this git repo <br>
 Navigate to project root directory where Docker file is present with cd command<br>
 
 Build docker image using below command<br>
@@ -10,7 +10,7 @@ Run the docker image with below command<br>
 `docker run -p 8000:8000 chess-game`<br>
 
 
-Sample curl request to test the endpoint
+Sample curl request to test the endpoint <br>
 `curl  -X POST \
   'http://127.0.0.1:8000/chess/knight' \
   --header 'Accept: */*' \
@@ -24,8 +24,8 @@ Sample curl request to test the endpoint
     "Knight": "C3"
   }
 }'
-<br>
-#Alternate way to run project
+
+### Alternate way to run project <br>
 pull the docker image from docker hub <br>
 `docker pull akshraj98/chess-valid-moves-game:1.0.0` <br>
 run the docker image with <br>
