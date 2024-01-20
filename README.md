@@ -24,4 +24,10 @@ Sample curl request to test the endpoint
     "Knight": "C3"
   }
 }'
+
+#Alternate way to run project
+pull the docker image from docker hub
+`docker pull akshraj98/chess-valid-moves-game:1.0.0`
+run the docker image with 
+`docker run -p 8000:8000 chess-game`
 `
