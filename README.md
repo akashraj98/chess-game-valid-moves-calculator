@@ -29,5 +29,5 @@ Sample curl request to test the endpoint <br>
 pull the docker image from docker hub <br>
 `docker pull akshraj98/chess-valid-moves-game:1.0.0` <br>
 run the docker image with <br>
-`docker run -p 8000:8000 chess-game`
+`docker run -p 8000:8000 akshraj98/chess-valid-moves-game:1.0.0`
 `
